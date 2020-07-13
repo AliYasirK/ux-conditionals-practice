@@ -70,7 +70,7 @@ a chain of if else statements, some of those just might need multible conditions
 
 let number = 5;
 // Your code here.
-if (number > 10 || number < 20) {
+if (number > 10 && number < 20) {
   console.log("Between 10 and 20!");
 }
 if (number >= 20) {
